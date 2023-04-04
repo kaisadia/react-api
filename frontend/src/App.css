@@ -1,0 +1,210 @@
+.grid {
+  display: inline-flex;
+  gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-auto-rows: minmax(300px, auto);
+  margin-bottom: 80px;
+}
+
+.header{
+  background-color: rgb(217, 239, 240);
+  height: 460px;
+
+
+}
+ .title{
+  text-align: center;
+  font-weight: 50;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  text-shadow: 2px 2px #f8fafb;
+  padding-top: 10px;
+  margin-bottom: 20px;
+ 
+}
+
+.subtitle{
+  text-align: center;
+  font-weight: 50;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px #f8fafb;
+  margin-top: 0%;
+ 
+}
+
+.h2 {
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 100;
+  text-shadow: 2px 2px #f8fafb;
+
+}
+
+.card-container{
+  width: auto;
+  border: solid 1px #d3d3d3;
+  margin: 10px auto;
+  box-shadow: 0px 0px 13px -4px rgb(187, 188, 189);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  background-color: rgb(245, 249, 249);
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+
+
+.front{
+  height: 400px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 10px;
+  width: 500px;
+}
+
+.email{
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 6px;
+
+}
+
+.back{
+  height: 350px;
+  padding-top: 10px;
+  width: 500px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.avatar{
+ height: auto;
+ width: auto;
+ display: block;
+ margin-left: auto;
+margin-right: auto;
+padding-bottom: 20px;
+
+  
+}
+
+.form {
+  width: 60%;
+  height: 65px;
+  border: solid 1px #d3d3d3;
+  box-shadow: 0px 0px 13px -4px rgb(187, 188, 189);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  background-color: rgb(245, 249, 249);
+  text-align: center;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form_firstname {
+  border-radius: 5px;
+  border: solid 2px #d3d3d3;
+  padding-right: 20px;
+  margin-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+
+
+}
+
+.form_lastname{
+  border-radius: 5px;
+  border: solid 2px #d3d3d3;
+  padding-right: 20px;
+  margin-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.form_email{
+  border-radius: 5px;
+  border: solid 2px #d3d3d3;
+  padding-right: 20px;
+  margin-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.button{
+  background-color: rgb(177, 246, 177);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+ 
+
+}
+
+.button:hover {
+  background-color: rgb(136, 237, 136)
+}
+
+.delete_button {
+  background-color: pink;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+
+ 
+}
+.delete_button:hover {
+  background-color: rgb(245, 121, 141);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar {
+  border-radius: 5px;
+  border: solid 2px #d3d3d3;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 200px;
+  height: 20px;
+  font-size: 15px;
+}
